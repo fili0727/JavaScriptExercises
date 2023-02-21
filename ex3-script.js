@@ -9,10 +9,6 @@ function start() {
 }
 
 function jump() {
-  console.log("jump");
-  document.querySelector("#orange_container").classList.add("jump");
-}
-
-function paused() {
   document.querySelector("#orange_container").classList.add("paused");
+  document.querySelector("#orange_sprite").classList.add("jump");
 }
